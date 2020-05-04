@@ -1,5 +1,5 @@
 import logging
-from StringIO import StringIO
+from six import StringIO
 
 
 class NotCapturing(RuntimeError):

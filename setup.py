@@ -14,7 +14,7 @@ setup(name='buffered_log_capture',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       include_package_data=True,
       zip_safe=False,
-      install_requires=[],
+      install_requires=['six'],
       extras_require={},
       entry_points=None
       )
